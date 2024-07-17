@@ -1,0 +1,195 @@
+﻿<Window x:Class="WpfApp7.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp7"
+        mc:Ignorable="d"
+        Title="Кошки" Height="550" Width="800" >
+
+    <Grid>
+        <TabControl x:Name="cats">
+            <TabControl.Background>
+                <ImageBrush ImageSource="C:\Users\AseR\Desktop\files\cats\pom.jpg"/>
+            </TabControl.Background>
+            <TabItem x:Name="push">
+                <TabItem.Header>
+                    <TextBlock Text="Пушистые" FontFamily="Courier New" FontSize="18" FontStyle="Italic"/>
+                </TabItem.Header>
+                <TabItem.Background>
+                    <SolidColorBrush Color="#FFCECDC3"/>
+                </TabItem.Background>
+                <TabItem.Content>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <Grid Grid.Column="0">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="51*"/>
+                                <ColumnDefinition Width="310*"/>
+                                <ColumnDefinition Width="36*"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="25*"/>
+                                <RowDefinition Height="178*"/>
+                                <RowDefinition Height="25*"/>
+                            </Grid.RowDefinitions>
+                            <ListBox BorderThickness="4" Name="cats1" FontSize="24" FontFamily="Courier New" BorderBrush="#FFCECDC3" Background="White" Grid.Column="1" Margin="2,55,1,55" Grid.RowSpan="3">
+                                <ListBoxItem Selected="ListBoxItem_Selected">Американский керл</ListBoxItem>
+                                <ListBoxItem Selected="ListBoxItem_Selected">Мейн-кун</ListBoxItem>
+                                <ListBoxItem Selected="ListBoxItem_Selected">Персидская</ListBoxItem>
+                                <ListBoxItem Selected="ListBoxItem_Selected">Рэгдолл</ListBoxItem>
+                                <ListBoxItem Selected="ListBoxItem_Selected">Британская длинношерстная</ListBoxItem>
+                                <ListBoxItem Selected="ListBoxItem_Selected">Невская маскарадная</ListBoxItem>
+                                <ListBoxItem Selected="ListBoxItem_Selected">Турецкая ангора</ListBoxItem>
+                                <ListBoxItem Selected="ListBoxItem_Selected">Норвежская лесная</ListBoxItem>
+                                <ListBoxItem Selected="ListBoxItem_Selected">Сибирская</ListBoxItem>
+                                <ListBoxItem Selected="ListBoxItem_Selected">Лаперм</ListBoxItem>
+                            </ListBox>
+                        </Grid>
+                        <Grid Grid.Column="1">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="10*"/>
+                                <ColumnDefinition Width="291*"/>
+                                <ColumnDefinition Width="50*"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="70*"/>
+                                <RowDefinition Height="122*"/>
+                                <RowDefinition Height="70*"/>
+
+                            </Grid.RowDefinitions>
+                            <Border Grid.Column="1" Grid.Row="1" BorderBrush="#FFCECDC3" BorderThickness="2">
+                                <Image  x:Name="img1" Source="C:\Users\AseR\Desktop\files\cats\mem.jpg" Stretch="Fill" Grid.Column="1" Grid.Row="1"/>
+                            </Border>
+                        </Grid>
+
+
+                    </Grid>
+
+                </TabItem.Content>
+       
+            </TabItem>
+            
+            
+            
+            <TabItem x:Name="glad">
+                <TabItem.Header>
+                    <TextBlock Text="Гладкошерстные" FontFamily="Courier New" FontSize="18" FontStyle="Italic"/>
+                </TabItem.Header>
+                <TabItem.Background>
+                    <SolidColorBrush Color="#FFCECDC3"/>
+                </TabItem.Background>
+                <TabItem.Content>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <Grid Grid.Column="0">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="51*"/>
+                                <ColumnDefinition Width="310*"/>
+                                <ColumnDefinition Width="36*"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="25*"/>
+                                <RowDefinition Height="178*"/>
+                                <RowDefinition Height="25*"/>
+                            </Grid.RowDefinitions>
+                            <ListBox BorderThickness="4" Name="cats2" FontSize="24" FontFamily="Courier New" BorderBrush="#FFCECDC3" Background="White" Grid.Column="1" Margin="2,55,1,55" Grid.RowSpan="3">
+                                <ListBoxItem Selected="ListBoxItem_Selected2">Каракет</ListBoxItem>
+                                <ListBoxItem Selected="ListBoxItem_Selected2">Каракал</ListBoxItem>
+                                <ListBoxItem Selected="ListBoxItem_Selected2">Камышовый кот (Хаус)</ListBoxItem>
+                                <ListBoxItem Selected="ListBoxItem_Selected2">Оухи-боб</ListBoxItem>
+                                <ListBoxItem Selected="ListBoxItem_Selected2">Анатолийская</ListBoxItem>
+                                <ListBoxItem Selected="ListBoxItem_Selected2">Бурманская кошка (Бурма)</ListBoxItem>
+                                <ListBoxItem Selected="ListBoxItem_Selected2">Бомбейская кошка</ListBoxItem>
+                                <ListBoxItem Selected="ListBoxItem_Selected2">Бенгальская кошка</ListBoxItem>
+                                <ListBoxItem Selected="ListBoxItem_Selected2">Американская короткошёрстная</ListBoxItem>
+                                <ListBoxItem Selected="ListBoxItem_Selected2">Корат</ListBoxItem>
+                            </ListBox>
+                        </Grid>
+                        <Grid Grid.Column="1">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="10*"/>
+                                <ColumnDefinition Width="291*"/>
+                                <ColumnDefinition Width="50*"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="70*"/>
+                                <RowDefinition Height="122*"/>
+                                <RowDefinition Height="70*"/>
+
+                            </Grid.RowDefinitions>
+                            <Border Grid.Column="1" Grid.Row="1" BorderBrush="#FFCECDC3" BorderThickness="2">
+                                <Image  x:Name="img2" Source="C:\Users\AseR\Desktop\files\cats\mem3.jpg" Stretch="Fill" Grid.Column="1" Grid.Row="1"/>
+                            </Border>
+                        </Grid>
+
+
+                    </Grid>
+
+                </TabItem.Content>
+            </TabItem>
+            
+            <TabItem>
+                <TabItem.Header>
+                    <TextBlock Text="Сфинксы" FontFamily="Courier New" FontSize="18" FontStyle="Italic"/>
+                </TabItem.Header>
+                <TabItem.Background>
+                    <SolidColorBrush Color="#FFCECDC3"/>
+                </TabItem.Background>
+                <TabItem.Content>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <Grid Grid.Column="0">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="51*"/>
+                                <ColumnDefinition Width="310*"/>
+                                <ColumnDefinition Width="36*"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="150*"/>
+                                <RowDefinition Height="178*"/>
+                                <RowDefinition Height="150*"/>
+                            </Grid.RowDefinitions>
+                            <ListBox BorderThickness="4" Name="cats3" FontSize="24" FontFamily="Courier New" BorderBrush="#FFCECDC3" Background="White" Grid.Column="1" Grid.Row="1">
+                                <ListBoxItem Selected="ListBoxItem_Selected3">Петерболд</ListBoxItem>
+                                <ListBoxItem Selected="ListBoxItem_Selected3">Донской сфинкс</ListBoxItem>
+                                <ListBoxItem Selected="ListBoxItem_Selected3">Канадский сфинкс</ListBoxItem>
+                                <ListBoxItem Selected="ListBoxItem_Selected3">Украинский левкой</ListBoxItem>
+                                <ListBoxItem Selected="ListBoxItem_Selected3">Эльф</ListBoxItem>
+                                
+                            </ListBox>
+                        </Grid>
+                        <Grid Grid.Column="1">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="10*"/>
+                                <ColumnDefinition Width="291*"/>
+                                <ColumnDefinition Width="50*"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="70*"/>
+                                <RowDefinition Height="122*"/>
+                                <RowDefinition Height="70*"/>
+
+                            </Grid.RowDefinitions>
+                            <Border Grid.Column="1" Grid.Row="1" BorderBrush="#FFCECDC3" BorderThickness="2">
+                                <Image  x:Name="img3" Source="C:\Users\AseR\Desktop\files\cats\mem4.jpg" Stretch="Fill" Grid.Column="1" Grid.Row="1"/>
+                            </Border>
+                        </Grid>
+
+
+                    </Grid>
+
+                </TabItem.Content>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>

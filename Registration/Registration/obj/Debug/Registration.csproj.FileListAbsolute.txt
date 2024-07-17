@@ -1,0 +1,16 @@
+C:\Users\AseR\Desktop\files\Registration\Registration\bin\Debug\Registration.exe.config
+C:\Users\AseR\Desktop\files\Registration\Registration\bin\Debug\Registration.exe
+C:\Users\AseR\Desktop\files\Registration\Registration\bin\Debug\Registration.pdb
+C:\Users\AseR\Desktop\files\Registration\Registration\obj\Debug\Registration.csproj.AssemblyReference.cache
+C:\Users\AseR\Desktop\files\Registration\Registration\obj\Debug\Registration.csproj.SuggestedBindingRedirects.cache
+C:\Users\AseR\Desktop\files\Registration\Registration\obj\Debug\MainWindow.g.cs
+C:\Users\AseR\Desktop\files\Registration\Registration\obj\Debug\App.g.cs
+C:\Users\AseR\Desktop\files\Registration\Registration\obj\Debug\Registration_MarkupCompile.cache
+C:\Users\AseR\Desktop\files\Registration\Registration\obj\Debug\Registration_MarkupCompile.lref
+C:\Users\AseR\Desktop\files\Registration\Registration\obj\Debug\MainWindow.baml
+C:\Users\AseR\Desktop\files\Registration\Registration\obj\Debug\Registration.g.resources
+C:\Users\AseR\Desktop\files\Registration\Registration\obj\Debug\Registration.Properties.Resources.resources
+C:\Users\AseR\Desktop\files\Registration\Registration\obj\Debug\Registration.csproj.GenerateResource.cache
+C:\Users\AseR\Desktop\files\Registration\Registration\obj\Debug\Registration.csproj.CoreCompileInputs.cache
+C:\Users\AseR\Desktop\files\Registration\Registration\obj\Debug\Registration.exe
+C:\Users\AseR\Desktop\files\Registration\Registration\obj\Debug\Registration.pdb
